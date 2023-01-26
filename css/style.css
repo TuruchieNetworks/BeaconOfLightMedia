@@ -470,6 +470,12 @@ button {
   position: relative;
   background: url('./img/muneeb-syed-4_M8uIfPEZw-unsplash.jpg') no-repeat center center/cover;
   height: 100vh;
+  border: #aaa 1px solid;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+  /* margin-top: 6rem; */
+  /* padding-bottom: 10px; */
 }
 
 .landing-inner {
@@ -478,6 +484,7 @@ button {
   height: 100%;
   width: 80%;
   margin: auto;
+  /* padding: 10px */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -486,12 +493,14 @@ button {
 }
 .landing-inner h1 {
   margin-top: 80px;
+  margin-bottom: 5px;
 }
 .videoplayer{
   color: #fff;
   height: 100%;
   width: 80%;
   margin: auto;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -673,23 +682,54 @@ button {
   .navbar {
     display: block;
     text-align: center;
-    height: 18.5%;
+    height: 200px
   }
 
   .navbar ul {
     text-align: center;
     justify-content: center;
+    margin-top: 0;
   }
-
+  .navbar ul a{
+    border: #aaa, 1 solid;
+    padding: 5px, 10px, 0, 10px;
+  }
   .navbar h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
   }
   
+  .navbar h1 a{
+    font-size: 25px;
+    margin-bottom: 0;
+  }
 
   .navbar .welcome {
     display: none;
   }
+  .landing-inner {
+    color: #fff;
+    font-size: medium;
+    height: 100%;
+    /* width: 80%; */
+    margin-top: 30px;
+    margin: auto;
+  
+    /* padding: 10px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .landing-inner h1, .landing-inner p{
+    display: none;
+  }
+  .landing-inner video {
+    margin-top: 210px;
+  
+  }
 
+/*   
   .lead {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -699,7 +739,7 @@ button {
     padding: 1rem;
     opacity: 0.8;
   }
-  
+   */
   .registercontainer {
     max-width: 1100px;
     
