@@ -424,11 +424,12 @@ button {
   padding: 0.7rem 2rem;
   position: fixed;
   z-index: 1;
-  width: 100%;
+  /* width: 200px; */
   top: 0;
   border-bottom: solid 1px var(--primary-color);
   opacity: 0.9;
-  height: 80px;
+  height: 90px;
+  flex-shrink: 0;
 }
 
 .navbar ul {
@@ -445,12 +446,24 @@ button {
   font-weight: bold;
   font-size: 18px;
   opacity: 0.8;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  /* flex-shrink: 0; */
 }
 
 .navbar h1 {
-  font-size: 30px;
+  font-size: 26px;
+  flex-shrink: 0;
+  flex-grow: 2;
+  flex-basis: 0;
+  padding-bottom: 15px;
+ 
 }
-
+.navbar h1 a {
+  align-items: center;
+  padding: 5px;
+  /* margin-bottom: 5px; */
+}
 .navbar a {
   color: #b7c7ea;
   /* padding: 0.45rem;
@@ -680,28 +693,36 @@ button {
 
   /* Navbar */
   .navbar {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    height: 200px
+    height: fit-content;
+    position: relative;
   }
 
   .navbar ul {
     text-align: center;
     justify-content: center;
     margin-top: 0;
-    
+    /* display: flex; */
+    flex-wrap: wrap;
   }
   .navbar ul a{
-    display: inline;
-    padding: 15px;
-    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    /* display: inline; */
+    padding: 5px;
+    /* margin-bottom: 10px; */
     margin-top: 0;
-    font-size: 15px;
+    font-size: 10px;
+    width: 150px;
   }
   /* .navbar li {
     margin-bottom: 10px;
   }
    */
+   .navbar h1{
+    flex-grow: 2;
+   }
   .navbar h1 a{
     /* display: inline; */
     font-size: 25px;
@@ -718,7 +739,7 @@ button {
     font-size: medium;
     height: 100%;
     /* width: 80%; */
-    margin-top: 30px;
+    margin-top: 10px;
     margin: auto;
   
     /* padding: 10px */
@@ -732,7 +753,7 @@ button {
     display: none;
   }
   .landing-inner video {
-    margin-top: 210px;
+    margin-top: 20px;
   
   }
 
