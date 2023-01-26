@@ -689,18 +689,25 @@ button {
     text-align: center;
     justify-content: center;
     margin-top: 0;
+    
   }
   .navbar ul a{
-    border: #aaa, 1 solid;
-    padding: 5px, 10px, 0, 10px;
+    display: inline;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 15px;
   }
-  .navbar h1 {
+  /* .navbar li {
     margin-bottom: 10px;
   }
-  
+   */
   .navbar h1 a{
+    /* display: inline; */
     font-size: 25px;
+    /* padding: 5px; */
     margin-bottom: 0;
+    background: none;
   }
 
   .navbar .welcome {
