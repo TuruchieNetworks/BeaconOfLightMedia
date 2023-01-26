@@ -1,0 +1,17 @@
+{
+  "resourceName": "BeaconOfLifeMediaStorage",
+  "policyUUID": "46258ff1",
+  "bucketName": "beaconoflifemediabbb018de94be4854a81a7dd631d263",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

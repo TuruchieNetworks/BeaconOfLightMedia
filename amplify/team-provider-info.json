@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-beaconoflifemedia-dev-93541-authRole",
+      "UnauthRoleArn": "arn:aws:iam::825899528470:role/amplify-beaconoflifemedia-dev-93541-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::825899528470:role/amplify-beaconoflifemedia-dev-93541-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-beaconoflifemedia-dev-93541-deployment",
+      "UnauthRoleName": "amplify-beaconoflifemedia-dev-93541-unauthRole",
+      "StackName": "amplify-beaconoflifemedia-dev-93541",
+      "StackId": "arn:aws:cloudformation:us-east-1:825899528470:stack/amplify-beaconoflifemedia-dev-93541/b6c47420-9d86-11ed-af92-0a087a5c1a77",
+      "AmplifyAppId": "d1cekp5tamw2nm"
+    },
+    "categories": {
+      "api": {
+        "beaconoflifemedia": {}
+      },
+      "auth": {
+        "BeaconOfLifeMedia": {}
+      }
+    }
+  }
+}

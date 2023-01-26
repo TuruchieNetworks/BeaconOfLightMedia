@@ -1,0 +1,59 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "BeaconOfLifeMediaPool",
+    "allowUnauthenticatedIdentities": true,
+    "resourceNameTruncated": "beacon77e443ee",
+    "userPoolName": "MediaOfLifeUserPool",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OPTIONAL",
+    "mfaTypes": [
+      "SMS Text Message",
+      "TOTP"
+    ],
+    "smsAuthenticationMessage": "Your authentication code from Beacon Of Life Christian Ministries is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code from Beacon Of Life Christian Ministries {####}",
+    "emailVerificationMessage": "Your verification code from Beacon Of Life Christian Ministries is {####}",
+    "defaultPasswordPolicy": true,
+    "passwordPolicyMinLength": "6",
+    "passwordPolicyCharacters": [
+      "Requires Lowercase",
+      "Requires Uppercase"
+    ],
+    "requiredAttributes": [
+      "email",
+      "family_name",
+      "given_name"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": "90",
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "Beacon77e443ee_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "77e443ee",
+    "resourceName": "BeaconOfLifeMedia",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "manual",
+    "thirdPartyAuth": false,
+    "usernameAttributes": [
+      "email, phone_number"
+    ],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": {},
+    "hostedUI": false,
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}
